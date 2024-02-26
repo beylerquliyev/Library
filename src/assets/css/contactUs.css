@@ -1,0 +1,199 @@
+@import url('general.css');
+
+.ContactSection{
+    padding-top: 74px;
+}
+
+.fw_bold{
+    color:#333 ;
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 196.187%;
+}
+.ContactInput{
+    height: 75px;
+    width: 97%;
+    flex-shrink: 0;
+    border: 1px solid #CECECE;
+    background-color: #FFF;
+}
+.inptDiv1{
+   
+    display: flex;
+    width: 50%;
+    gap: 30px;
+}
+.inptDiv2{
+    
+    display: flex;
+    width: 50%;
+    gap: 30px;
+    
+}
+.InputsDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 38px;
+    padding-top: 14px;
+}
+
+.ContactInput::placeholder{
+    color: #797667;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 38px;
+padding-top: 24px;
+padding-bottom: 24px;
+}
+.ContactInput:focus{
+    color: #797667;
+font-size: 23px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 38px;
+padding-top: 24px;
+padding-bottom: 24px;
+
+}
+
+.TextAreaDiv{
+    padding-top: 20px;
+    padding-right: 7px;
+}
+
+.ContactTextare{
+    width: 100%;
+height: 153px;
+flex-shrink: 0;
+border: 1px solid #CECECE;
+background-color: #FFF;
+text-decoration: none;
+
+}
+
+.Contactbtn{
+    width: 510px;
+height: 75px;
+flex-shrink: 0;
+background-color: var(--color-orange);
+border: none;
+color: #FFF;
+text-align: center;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.BtnDivC{
+    display: flex;
+    justify-content: center;
+    padding-top: 74px;
+  
+}
+.TextEror{
+    color: red;
+    text-align:center;
+    font-size: large;
+    padding-top: 20px;
+    display: none;
+    /* display: none; */
+
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+.fw_bold{
+    color: var(--, #241400);
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 900;
+line-height: 196.187%;
+text-align: center;
+}
+    .InputsDiv{
+        width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0;
+      margin: 0;
+      padding-top: 29px;
+
+    }
+    .inptDiv1{
+      display: flex;
+      width: 80%;
+      flex-direction: column;
+      align-items: center;
+      gap: 39px;
+      padding: 0;
+      margin: 0;
+      
+    }
+    .inptDiv2{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        gap: 39px;
+        padding: 0;
+      margin: 0;
+    }
+    .ContactInput{
+        height:39px ;
+        border-radius: 5px;
+border: 1px solid #CECECE;
+
+background: #FFF;
+        
+    }
+    .TextAreaDiv{
+        display: none;
+    }
+    .ContactInput::placeholder{
+        color: #241400;
+        font-family: "Crimson Text";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .ContactInput:focus{
+        color: #241400;
+        font-family: "Crimson Text";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    
+    }
+    
+    .Contactbtn{
+        width: 80%;
+        border-radius: 5px;
+        background: #E16A00;
+        height: 37px ;
+        color: #FFF;
+
+text-align: center;
+font-family: "Crimson Text";
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+    
+  }
+  .successfull{
+    display: none;
+    color: green;
+    text-align:center;
+    font-size: large;
+    padding-top: 20px;
+  }
